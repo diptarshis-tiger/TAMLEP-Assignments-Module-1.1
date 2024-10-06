@@ -1,0 +1,829 @@
+Script started on 2024-10-06 00:25:55+05:30 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="120" LINES="30"]
+[?2004h]0;diptarshis@TIGER05093: ~[01;32mdiptarshis@TIGER05093[00m:[01;34m~[00m$ sudo apt get install gitcat assignment1_dsaha.txt script -a ~/assignment1_dsaha.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cpwd[K[1Plswsl -l -vless myscript.logs[Kscript myscript.logexit[Kless assignment1_dsaha.txt [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd ..[Khistory[2Pcd ..less assignment1_dsaha.txt [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cexit[Kscript myscript.logls[Kscript myscript.logexit[Kless assignment1_dsaha.txt [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd ..[Khistorywc -l $(find . -name "*.dat") | sort -n[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cfind creatures -name "*.dat" | grep -v unicorn[K[2P*.dat | grep -v unicorn[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[4Pgrep "searching" $(find . -name "*.txt")[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[11Pwc -l[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[9Pfind . -name "*.txt"ls[Kfind . -name *.txt[6P*.txt-type fd[K[1Pcd ..grep -ocw Jo LittleWomen.txt | wc -l[1P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[12PJo LittleWomen.txt[4@-ow [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cfor sis in Jo Meg Beth Amy; do     echo $sis:;     grep -ow $sis LittleWomen.txt | wc -l; done[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgrep -ow Jo LittleWomen.txt[K[4P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C-ow Jo LittleWomen.txt | wc -l[1@c[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd ..[Kfind . -type df[2P*.txt-name *.txtls[Kfind . -name "*.txt"wc -l $(find . -name "*.txt")[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[11@grep "searching"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cfind creatures -name *.dat | grep -v unicorn[K"*.dat" | grep -v unicorn[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[7Pwc -l $(find . -name "*.dat") | sort -n[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Chistory[K[2Pcd ..less assignment1_dsaha.txt [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cexit[Kscript myscript.logls[Kess myscript.log[8Pwsl -l -v[K[1Plspwdscript -a ~/assignment1_dsaha.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[7Pcat assignment1_dsaha.txt [2Psudo apt get install git[Kgit init
+[?2004lReinitialized existing Git repository in /home/diptarshis/.git/
+[?2004h]0;diptarshis@TIGER05093: ~[01;32mdiptarshis@TIGER05093[00m:[01;34m~[00m$ git status
+[?2004lOn branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+	[32mnew file:   README.md[m
+	[32mnew file:   assignment1_dsaha.txt[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31m.bash_history[m
+	[31m.bash_logout[m
+	[31m.bashrc[m
+	[31m.cache/[m
+	[31m.lesshst[m
+	[31m.motd_shown[m
+	[31m.profile[m
+	[31m.sudo_as_admin_successful[m
+	[31mAssignment1_2_git_dsaha.txt[m
+	[31mmyscript.log[m
+	[31mshell-lesson-data.zip[m
+	[31mshell-lesson-data.zip:Zone.Identifier[m
+	[31mshell-lesson-data/[m
+
+[?2004h]0;diptarshis@TIGER05093: ~[01;32mdiptarshis@TIGER05093[00m:[01;34m~[00m$ git add README.md
+[?2004l[?2004h]0;diptarshis@TIGER05093: ~[01;32mdiptarshis@TIGER05093[00m:[01;34m~[00m$ git assignment1_dsaha.txt[Cassignment1_dsaha.txtdassignment1_dsaha.txtdassignment1_dsaha.txt assignment1_dsaha.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004l[?2004h]0;diptarshis@TIGER05093: ~[01;32mdiptarshis@TIGER05093[00m:[01;34m~[00m$ cat README.ms[Kd
+[?2004l# TAMLEP-Assignments. This repository consists of all of the assigment deliverables for the TAMLEP Program
+[?2004h]0;diptarshis@TIGER05093: ~[01;32mdiptarshis@TIGER05093[00m:[01;34m~[00m$ cat README.mdgit add assignment1_dsaha.txt[12PREADME.mdassignment1_dsaha.txt[K[K[K[K[K[K[K[K[K[K[K[Kt1_dsaha.txt [K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[KAssignment1_2_git_dsaha.txt [K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[7mgit remote add origin git@github.com:diptarshis-tiger/TAMLEP-Assignments.git[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit remote add origin git@github.com:diptarshis-tiger/TAMLEP-Assignments.git
+[?2004l[?2004h]0;diptarshis@TIGER05093: ~[01;32mdiptarshis@TIGER05093[00m:[01;34m~[00m$ [7mgit branch -M main[27mgit branch -M main
+[?2004l[?2004h]0;diptarshis@TIGER05093: ~[01;32mdiptarshis@TIGER05093[00m:[01;34m~[00m$ [7mgit push -u origin main[27mgit push -u origin main
+[?2004lerror: src refspec main does not match any
+[31merror: failed to push some refs to 'github.com:diptarshis-tiger/TAMLEP-Assignments.git'
+[m[?2004h]0;diptarshis@TIGER05093: ~[01;32mdiptarshis@TIGER05093[00m:[01;34m~[00m$ git checkout
+[?2004lfatal: You are on a branch yet to be born
+[?2004h]0;diptarshis@TIGER05093: ~[01;32mdiptarshis@TIGER05093[00m:[01;34m~[00m$ git checkoutpush -u origin main[K[K[Kaster
+[?2004lerror: src refspec master does not match any
+[31merror: failed to push some refs to 'github.com:diptarshis-tiger/TAMLEP-Assignments.git'
+[m[?2004h]0;diptarshis@TIGER05093: ~[01;32mdiptarshis@TIGER05093[00m:[01;34m~[00m$ [7mgit rev-parse --abbrev-ref HEAD[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit rev-parse --abbrev-ref HEAD
+[?2004lHEAD
+fatal: ambiguous argument 'HEAD': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+[?2004h]0;diptarshis@TIGER05093: ~[01;32mdiptarshis@TIGER05093[00m:[01;34m~[00m$ git branch
+[?2004l[?1h=[K[?1l>[?2004h]0;diptarshis@TIGER05093: ~[01;32mdiptarshis@TIGER05093[00m:[01;34m~[00m$ [7mgit branch --show-current[27mgit branch --show-current
+[?2004lmain
+[?2004h]0;diptarshis@TIGER05093: ~[01;32mdiptarshis@TIGER05093[00m:[01;34m~[00m$ git clone [7mgit@github.com:diptarshis-tiger/TAMLEP-Assignments.git[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit@github.com:diptarshis-tiger/TAMLEP-Assignments.git
+[?2004lCloning into 'TAMLEP-Assignments'...
+The authenticity of host 'github.com (20.207.73.82)' can't be established.
+ED25519 key fingerprint is SHA256:+DiY3wvvV6TuJJhbpZisF/zLDA0zPMSvHdkr4UvCOqU.
+This key is not known by any other names
+Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
+Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+[?2004h]0;diptarshis@TIGER05093: ~[01;32mdiptarshis@TIGER05093[00m:[01;34m~[00m$ [7mssh -vT git@github.com[27mssh -vT git@github.com
+[?2004lOpenSSH_8.9p1 Ubuntu-3ubuntu0.10, OpenSSL 3.0.2 15 Mar 2022
+debug1: Reading configuration data /etc/ssh/ssh_config
+debug1: /etc/ssh/ssh_config line 19: include /etc/ssh/ssh_config.d/*.conf matched no files
+debug1: /etc/ssh/ssh_config line 21: Applying options for *
+debug1: Connecting to github.com [20.207.73.82] port 22.
+debug1: Connection established.
+debug1: identity file /home/diptarshis/.ssh/id_rsa type -1
+debug1: identity file /home/diptarshis/.ssh/id_rsa-cert type -1
+debug1: identity file /home/diptarshis/.ssh/id_ecdsa type -1
+debug1: identity file /home/diptarshis/.ssh/id_ecdsa-cert type -1
+debug1: identity file /home/diptarshis/.ssh/id_ecdsa_sk type -1
+debug1: identity file /home/diptarshis/.ssh/id_ecdsa_sk-cert type -1
+debug1: identity file /home/diptarshis/.ssh/id_ed25519 type -1
+debug1: identity file /home/diptarshis/.ssh/id_ed25519-cert type -1
+debug1: identity file /home/diptarshis/.ssh/id_ed25519_sk type -1
+debug1: identity file /home/diptarshis/.ssh/id_ed25519_sk-cert type -1
+debug1: identity file /home/diptarshis/.ssh/id_xmss type -1
+debug1: identity file /home/diptarshis/.ssh/id_xmss-cert type -1
+debug1: identity file /home/diptarshis/.ssh/id_dsa type -1
+debug1: identity file /home/diptarshis/.ssh/id_dsa-cert type -1
+debug1: Local version string SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.10
+debug1: Remote protocol version 2.0, remote software version babeld-3d60e350f
+debug1: compat_banner: no match: babeld-3d60e350f
+debug1: Authenticating to github.com:22 as 'git'
+debug1: load_hostkeys: fopen /home/diptarshis/.ssh/known_hosts2: No such file or directory
+debug1: load_hostkeys: fopen /etc/ssh/ssh_known_hosts: No such file or directory
+debug1: load_hostkeys: fopen /etc/ssh/ssh_known_hosts2: No such file or directory
+debug1: SSH2_MSG_KEXINIT sent
+debug1: SSH2_MSG_KEXINIT received
+debug1: kex: algorithm: curve25519-sha256
+debug1: kex: host key algorithm: ssh-ed25519
+debug1: kex: server->client cipher: chacha20-poly1305@openssh.com MAC: <implicit> compression: none
+debug1: kex: client->server cipher: chacha20-poly1305@openssh.com MAC: <implicit> compression: none
+debug1: expecting SSH2_MSG_KEX_ECDH_REPLY
+debug1: SSH2_MSG_KEX_ECDH_REPLY received
+debug1: Server host key: ssh-ed25519 SHA256:+DiY3wvvV6TuJJhbpZisF/zLDA0zPMSvHdkr4UvCOqU
+debug1: load_hostkeys: fopen /home/diptarshis/.ssh/known_hosts2: No such file or directory
+debug1: load_hostkeys: fopen /etc/ssh/ssh_known_hosts: No such file or directory
+debug1: load_hostkeys: fopen /etc/ssh/ssh_known_hosts2: No such file or directory
+debug1: Host 'github.com' is known and matches the ED25519 host key.
+debug1: Found key in /home/diptarshis/.ssh/known_hosts:1
+debug1: ssh_packet_send2_wrapped: resetting send seqnr 3
+debug1: rekey out after 134217728 blocks
+debug1: SSH2_MSG_NEWKEYS sent
+debug1: expecting SSH2_MSG_NEWKEYS
+debug1: ssh_packet_read_poll2: resetting read seqnr 3
+debug1: SSH2_MSG_NEWKEYS received
+debug1: rekey in after 134217728 blocks
+debug1: Will attempt key: /home/diptarshis/.ssh/id_rsa 
+debug1: Will attempt key: /home/diptarshis/.ssh/id_ecdsa 
+debug1: Will attempt key: /home/diptarshis/.ssh/id_ecdsa_sk 
+debug1: Will attempt key: /home/diptarshis/.ssh/id_ed25519 
+debug1: Will attempt key: /home/diptarshis/.ssh/id_ed25519_sk 
+debug1: Will attempt key: /home/diptarshis/.ssh/id_xmss 
+debug1: Will attempt key: /home/diptarshis/.ssh/id_dsa 
+debug1: SSH2_MSG_EXT_INFO received
+debug1: kex_input_ext_info: server-sig-algs=<ssh-ed25519-cert-v01@openssh.com,ecdsa-sha2-nistp521-cert-v01@openssh.com,ecdsa-sha2-nistp384-cert-v01@openssh.com,ecdsa-sha2-nistp256-cert-v01@openssh.com,sk-ssh-ed25519-cert-v01@openssh.com,sk-ecdsa-sha2-nistp256-cert-v01@openssh.com,rsa-sha2-512-cert-v01@openssh.com,rsa-sha2-256-cert-v01@openssh.com,ssh-rsa-cert-v01@openssh.com,sk-ssh-ed25519@openssh.com,sk-ecdsa-sha2-nistp256@openssh.com,ssh-ed25519,ecdsa-sha2-nistp521,ecdsa-sha2-nistp384,ecdsa-sha2-nistp256,rsa-sha2-512,rsa-sha2-256,ssh-rsa>
+debug1: SSH2_MSG_SERVICE_ACCEPT received
+debug1: Authentications that can continue: publickey
+debug1: Next authentication method: publickey
+debug1: Trying private key: /home/diptarshis/.ssh/id_rsa
+debug1: Trying private key: /home/diptarshis/.ssh/id_ecdsa
+debug1: Trying private key: /home/diptarshis/.ssh/id_ecdsa_sk
+debug1: Trying private key: /home/diptarshis/.ssh/id_ed25519
+debug1: Trying private key: /home/diptarshis/.ssh/id_ed25519_sk
+debug1: Trying private key: /home/diptarshis/.ssh/id_xmss
+debug1: Trying private key: /home/diptarshis/.ssh/id_dsa
+debug1: No more authentication methods to try.
+git@github.com: Permission denied (publickey).
+[?2004h]0;diptarshis@TIGER05093: ~[01;32mdiptarshis@TIGER05093[00m:[01;34m~[00m$ [7mgit remote add origin git@github.com:diptarshis-tiger/TAMLEP-Assignments.git[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit remote add origin git@github.com:diptarshis-tiger/TAMLEP-Assignments.git
+[?2004lerror: remote origin already exists.
+[?2004h]0;diptarshis@TIGER05093: ~[01;32mdiptarshis@TIGER05093[00m:[01;34m~[00m$ git remote -v
+[?2004lorigin	git@github.com:diptarshis-tiger/TAMLEP-Assignments.git (fetch)
+origin	git@github.com:diptarshis-tiger/TAMLEP-Assignments.git (push)
+[?2004h]0;diptarshis@TIGER05093: ~[01;32mdiptarshis@TIGER05093[00m:[01;34m~[00m$ [7mssh -T git@github.com[27mssh -T git@github.com
+[?2004lgit@github.com: Permission denied (publickey).
+[?2004h]0;diptarshis@TIGER05093: ~[01;32mdiptarshis@TIGER05093[00m:[01;34m~[00m$ ssh-keygen
+[?2004lGenerating public/private rsa key pair.
+Enter file in which to save the key (/home/diptarshis/.ssh/id_rsa): ssh_ds
+Enter passphrase (empty for no passphrase): 
+Enter same passphrase again: 
+Your identification has been saved in ssh_ds
+Your public key has been saved in ssh_ds.pub
+The key fingerprint is:
+SHA256:OvD/O3427l/giOMIsfUIjYuxjrRGsPCySSmmqS6OA0Q diptarshis@TIGER05093
+The key's randomart image is:
++---[RSA 3072]----+
+|                 |
+| E               |
+|.                |
+|o.     o         |
+|o+. o + S     .  |
+|=+o  * B o . o . |
+|**. o B . + . . .|
+|O..+   + o..+  . |
+|B=o .   oo=Boo.  |
++----[SHA256]-----+
+[?2004h]0;diptarshis@TIGER05093: ~[01;32mdiptarshis@TIGER05093[00m:[01;34m~[00m$ ssh-keygen -T git@github.com[11P-keygen
+[?2004lGenerating public/private rsa key pair.
+Enter file in which to save the key (/home/diptarshis/.ssh/id_rsa): /home/diptarshis/.ssh/id_rsa
+Enter passphrase (empty for no passphrase): 
+Enter same passphrase again: 
+Your identification has been saved in /home/diptarshis/.ssh/id_rsa
+Your public key has been saved in /home/diptarshis/.ssh/id_rsa.pub
+The key fingerprint is:
+SHA256:lvQLP6FanKNiSSIAody90LHgpWUbDZeXOG/tU6mVLh4 diptarshis@TIGER05093
+The key's randomart image is:
++---[RSA 3072]----+
+|.. . Bo.o .      |
+|+ o O *= o       |
+|o. = =  = .   o  |
+|.   . .. = . =   |
+|.    .  S + =    |
+|. . .  o = E .   |
+| . o .  * = +    |
+|    +  + . o     |
+|   . .o          |
++----[SHA256]-----+
+[?2004h]0;diptarshis@TIGER05093: ~[01;32mdiptarshis@TIGER05093[00m:[01;34m~[00m$ clip ~/.ssh/id_rsa.pub
+[?2004lCommand 'clip' not found, but can be installed with:
+sudo apt install geomview
+[?2004h]0;diptarshis@TIGER05093: ~[01;32mdiptarshis@TIGER05093[00m:[01;34m~[00m$ clip ~/.ssh/id_rsa.pub[C ~/.ssh/id_rsa.pub< ~/.ssh/id_rsa.pub[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004lCommand 'clip' not found, but can be installed with:
+sudo apt install geomview
+[?2004h]0;diptarshis@TIGER05093: ~[01;32mdiptarshis@TIGER05093[00m:[01;34m~[00m$ clip < ~/.ssh/id_rsa.pub[1P[1P[1P[1@a[1@t
+[?2004lssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDtrh4XfHd57lcJRfvr/PWj8ppa/fBVjtS7mZ3HEVIvPFTZB3s896x8Mnts9T0dVMG+n8ECacHVtLg2u3XvzMswcKQPZGz3h6xIjZH2yuH5u9EcIuX6i2JW+5UJCtxaRXLs/xV3bZysIZNHQ/ZyRAe97tr7DOWbDRdUnkRCElq9nS/zqEbZ6edOotcfWIP8FtG9RMR7R05oceAOoixLFRESSb8YThM8a/Q/CSqGIusGIK1cZIIKdFoe0JjdOhM7eDvMN11TbgS6WL4/USSSGkuZKgUO7dqDR9xx/PT+gkImb1KqZm7eMdexA9bx36oJ0ztUwVopmfMn0DujPVhXnXq6JDT+DyRZKhnX8en/+w9bi6VweOQI4M/Sk1gWZufLdZwjyEUmtfNgf9abCpti5f+8f4i7yvhvKCCJky2+I27PhIGJ/jt2HD0h6G7R0kUg8Qgq4ThKuxdAeFiHdRizNlxMPtzHC0K3ux0xaqJn4K9yIOvveAAk2YrY1kPqxLKIICU= diptarshis@TIGER05093
+[?2004h]0;diptarshis@TIGER05093: ~[01;32mdiptarshis@TIGER05093[00m:[01;34m~[00m$ git clone [7mgit@github.com:diptarshis-tiger/TAMLEP-Assignments.git[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit@github.com:diptarshis-tiger/TAMLEP-Assignments.git
+[?2004lCloning into 'TAMLEP-Assignments'...
+warning: You appear to have cloned an empty repository.
+[?2004h]0;diptarshis@TIGER05093: ~[01;32mdiptarshis@TIGER05093[00m:[01;34m~[00m$ git init
+[?2004lReinitialized existing Git repository in /home/diptarshis/.git/
+[?2004h]0;diptarshis@TIGER05093: ~[01;32mdiptarshis@TIGER05093[00m:[01;34m~[00m$ git add [7mREADME[27mREADME.md
+[?2004l[?2004h]0;diptarshis@TIGER05093: ~[01;32mdiptarshis@TIGER05093[00m:[01;34m~[00m$ git add assignment1_dsaha.txt 
+[?2004l[?2004h]0;diptarshis@TIGER05093: ~[01;32mdiptarshis@TIGER05093[00m:[01;34m~[00m$ git commit -m "Commiti[Kting the first assignment txt file comprising of Shee[Kll lesson[K[K[K[K[K[Kexercises"
+[?2004lAuthor identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: empty ident name (for <diptarshis@TIGER05093.tigeranalytics.local>) not allowed
+[?2004h]0;diptarshis@TIGER05093: ~[01;32mdiptarshis@TIGER05093[00m:[01;34m~[00m$ [7m git config --global user.email "you@example.com"[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C git config --global user.email "you@example.com"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"d"i"p"t"a"r"s"h"i"."s"a"h"a"@"t"i"g"e"r"a"n"a"l"y"t"i"c"s"."c"o"m"[C
+[?2004l[?2004h]0;diptarshis@TIGER05093: ~[01;32mdiptarshis@TIGER05093[00m:[01;34m~[00m$ git commit -m "Committing the first assignment txt file comprising of Shell exercises"[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[7mgit config --global user.name "Your Name"[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit config --global user.name "Your Name"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"d"i"p"t"a"r"s"h"i"s"-"t"i"g"e"r"[C
+[?2004l[?2004h]0;diptarshis@TIGER05093: ~[01;32mdiptarshis@TIGER05093[00m:[01;34m~[00m$ git config --global user.name "diptarshis-tiger"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cmmit -m "Committing the first assignment txt file comprising of Shell exercises"
+[?2004l[main (root-commit) 3c6c40f] Committing the first assignment txt file comprising of Shell exercises
+ 2 files changed, 7156 insertions(+)
+ create mode 100644 README.md
+ create mode 100644 assignment1_dsaha.txt
+[?2004h]0;diptarshis@TIGER05093: ~[01;32mdiptarshis@TIGER05093[00m:[01;34m~[00m$ git branch -M main
+[?2004l[?2004h]0;diptarshis@TIGER05093: ~[01;32mdiptarshis@TIGER05093[00m:[01;34m~[00m$ [7mgit remote add origin git@github.com:diptarshis-tiger/TAMLEP-Assignments.git[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit remote add origin git@github.com:diptarshis-tiger/TAMLEP-Assignments.git
+[?2004lerror: remote origin already exists.
+[?2004h]0;diptarshis@TIGER05093: ~[01;32mdiptarshis@TIGER05093[00m:[01;34m~[00m$ [7mgit push -u origin main[27mgit push -u origin main
+[?2004lEnumerating objects: 4, done.
+Counting objects:  25% (1/4)Counting objects:  50% (2/4)Counting objects:  75% (3/4)Counting objects: 100% (4/4)Counting objects: 100% (4/4), done.
+Delta compression using up to 12 threads
+Compressing objects:  25% (1/4)Compressing objects:  50% (2/4)Compressing objects:  75% (3/4)Compressing objects: 100% (4/4)Compressing objects: 100% (4/4), done.
+Writing objects:  25% (1/4)Writing objects:  50% (2/4)Writing objects:  75% (3/4)Writing objects: 100% (4/4)Writing objects: 100% (4/4), 80.87 KiB | 3.85 MiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+To github.com:diptarshis-tiger/TAMLEP-Assignments.git
+ * [new branch]      main -> main
+Branch 'main' set up to track remote branch 'main' from 'origin'.
+[?2004h]0;diptarshis@TIGER05093: ~[01;32mdiptarshis@TIGER05093[00m:[01;34m~[00m$ cat README.md
+[?2004l# TAMLEP-Assignments. This repository consists of all of the assigment deliverables for the TAMLEP Program
+[?2004h]0;diptarshis@TIGER05093: ~[01;32mdiptarshis@TIGER05093[00m:[01;34m~[00m$ git --version
+[?2004lgit version 2.34.1
+[?2004h]0;diptarshis@TIGER05093: ~[01;32mdiptarshis@TIGER05093[00m:[01;34m~[00m$ [7mgit config --list --show-origin[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit config --list --show-origin
+[?2004l[?1h=file:/home/diptarshis/.gitconfig        user.email=diptarshi.saha@tigeranalytics.com[m
+file:/home/diptarshis/.gitconfig        user.name=diptarshis-tiger[m
+file:.git/config        core.repositoryformatversion=0[m
+file:.git/config        core.filemode=true[m
+file:.git/config        core.bare=false[m
+file:.git/config        core.logallrefupdates=true[m
+file:.git/config        remote.origin.url=git@github.com:diptarshis-tiger/TAMLEP-Assignments.git[m
+file:.git/config        remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*[m
+file:.git/config        branch.main.remote=origin[m
+file:.git/config        branch.main.merge=refs/heads/main[m
+[K[?1l>[?2004h]0;diptarshis@TIGER05093: ~[01;32mdiptarshis@TIGER05093[00m:[01;34m~[00m$ [7mgit config --global init.defaultBranch main[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit config --global init.defaultBranch main
+[?2004l[?2004h]0;diptarshis@TIGER05093: ~[01;32mdiptarshis@TIGER05093[00m:[01;34m~[00m$ git branch 
+[?2004l[?1h=* [32mmain[m[m
+[K[?1l>[?2004h]0;diptarshis@TIGER05093: ~[01;32mdiptarshis@TIGER05093[00m:[01;34m~[00m$ [7mgit config --list[27mgit config --list
+[?2004l[?1h=user.email=diptarshi.saha@tigeranalytics.com[m
+user.name=diptarshis-tiger[m
+init.defaultbranch=main[m
+core.repositoryformatversion=0[m
+core.filemode=true[m
+core.bare=false[m
+core.logallrefupdates=true[m
+remote.origin.url=git@github.com:diptarshis-tiger/TAMLEP-Assignments.git[m
+remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*[m
+branch.main.remote=origin[m
+branch.main.merge=refs/heads/main[m
+[K[?1l>[?2004h]0;diptarshis@TIGER05093: ~[01;32mdiptarshis@TIGER05093[00m:[01;34m~[00m$ [7mgit config user.name[27mgit config user.name
+[?2004ldiptarshis-tiger
+[?2004h]0;diptarshis@TIGER05093: ~[01;32mdiptarshis@TIGER05093[00m:[01;34m~[00m$ [7mgit config --show-origin rerere.autoUpdate[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit config --show-origin rerere.autoUpdate
+[?2004l[?2004h]0;diptarshis@TIGER05093: ~[01;32mdiptarshis@TIGER05093[00m:[01;34m~[00m$ git help config
+[?2004l[?1049h[22;0;0t[?1h=GIT-CONFIG(1)                                         Git Manual                                        GIT-CONFIG(1)[m
+[m
+[1mNAME[0m[m
+       git-config - Get and set repository or global options[m
+[m
+[1mSYNOPSIS[0m[m
+       [4mgit[24m [4mconfig[24m [<file-option>] [--type=<type>] [--fixed-value] [--show-origin] [--show-scope] [-z|--null] name [value[m  [value-pattern]][m
+       [4mgit[24m [4mconfig[24m [<file-option>] [--type=<type>] --add name value[m
+       [4mgit[24m [4mconfig[24m [<file-option>] [--type=<type>] [--fixed-value] --replace-all name value [value-pattern][m
+       [4mgit[24m [4mconfig[24m [<file-option>] [--type=<type>] [--show-origin] [--show-scope] [-z|--null] [--fixed-value] --get name [m [value-pattern][m
+       [4mgit[24m [4mconfig[24m [<file-option>] [--type=<type>] [--show-origin] [--show-scope] [-z|--null] [--fixed-value] --get-all n[m ame [value-pattern][m
+       [4mgit[24m [4mconfig[24m [<file-option>] [--type=<type>] [--show-origin] [--show-scope] [-z|--null] [--fixed-value] [--name-onl[m y] --get-regexp name_regex [value-pattern][m
+       [4mgit[24m [4mconfig[24m [<file-option>] [--type=<type>] [-z|--null] --get-urlmatch name URL[m
+       [4mgit[24m [4mconfig[24m [<file-option>] [--fixed-value] --unset name [value-pattern][m
+       [4mgit[24m [4mconfig[24m [<file-option>] [--fixed-value] --unset-all name [value-pattern][m
+       [4mgit[24m [4mconfig[24m [<file-option>] --rename-section old_name new_name[m
+       [4mgit[24m [4mconfig[24m [<file-option>] --remove-section name[m
+       [4mgit[24m [4mconfig[24m [<file-option>] [--show-origin] [--show-scope] [-z|--null] [--name-only] -l | --list[m
+       [4mgit[24m [4mconfig[24m [<file-option>] --get-color name [default][m
+       [4mgit[24m [4mconfig[24m [<file-option>] --get-colorbool name [stdout-is-tty][m
+       [4mgit[24m [4mconfig[24m [<file-option>] -e | --edit[m
+[m
+[1mDESCRIPTION[0m[m
+       You can query/set/replace/unset options with this command. The name is actually the section and the key[m
+       separated by a dot, and the value will be escaped.[m
+[7m Manual page git-config(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page git-config(1) line 2 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       Multiple lines can be added to an option by using the [1m--add[0m option. If you want to update or unset an option[m
+[7m Manual page git-config(1) line 3 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       which can occur on multiple lines, a [1mvalue-pattern[0m (which is an extended regular expression, unless the[m
+[7m Manual page git-config(1) line 4 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m--fixed-value[0m option is given) needs to be given. Only the existing values that match the pattern are updated[m
+[7m Manual page git-config(1) line 5 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       or unset. If you want to handle the lines that do [1mnot[0m match the pattern, just prepend a single exclamation[m
+[7m Manual page git-config(1) line 6 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       mark in front (see also the section called “EXAMPLES”), but note that this only works when the [1m--fixed-value[0m[m
+[7m Manual page git-config(1) line 7 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       option is not in use.[m
+[7m Manual page git-config(1) line 7 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page git-config(1) line 8 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       The [1m--type=<type>[0m option instructs [4mgit[24m [4mconfig[24m to ensure that incoming and outgoing values are[m
+[7m Manual page git-config(1) line 9 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       canonicalize-able under the given <type>. If no [1m--type=<type>[0m is given, no canonicalization will be performed.[m
+[7m Manual page git-config(1) line 10 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       Callers may unset an existing [1m--type[0m specifier with [1m--no-type[0m.[m
+[7m Manual page git-config(1) line 10 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page git-config(1) line 11 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       When reading, the values are read from the system, global and repository local configuration files by default,[m
+[7m Manual page git-config(1) line 11 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       and options [1m--system[0m, [1m--global[0m, [1m--local[0m, [1m--worktree[0m and [1m--file[0m [1m<filename>[0m can be used to tell the command to[m
+[7m Manual page git-config(1) line 12 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       read from only that location (see the section called “FILES”).[m
+[7m Manual page git-config(1) line 12 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page git-config(1) line 13 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       When writing, the new value is written to the repository local configuration file by default, and options[m
+[7m Manual page git-config(1) line 14 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m--system[0m, [1m--global[0m, [1m--worktree[0m, [1m--file[0m [1m<filename>[0m can be used to tell the command to write to that location[m
+[7m Manual page git-config(1) line 15 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       (you can say [1m--local[0m but that is the default).[m
+[7m Manual page git-config(1) line 16 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page git-config(1) line 17 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       This command will fail with non-zero status upon error. Some exit codes are:[m
+[7m Manual page git-config(1) line 18 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page git-config(1) line 19 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       •   The section or key is invalid (ret=1),[m
+[7m Manual page git-config(1) line 20 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page git-config(1) line 21 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       •   no section or name was provided (ret=2),[m
+[7m Manual page git-config(1) line 22 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page git-config(1) line 23 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       •   the config file is invalid (ret=3),[m
+[7m Manual page git-config(1) line 24 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page git-config(1) line 25 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       •   the config file cannot be written (ret=4),[m
+[7m Manual page git-config(1) line 26 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page git-config(1) line 27 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       •   you try to unset an option which does not exist (ret=5),[m
+[7m Manual page git-config(1) line 28 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page git-config(1) line 29 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       •   you try to unset/set an option for which multiple lines match (ret=5), or[m
+[7m Manual page git-config(1) line 30 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page git-config(1) line 31 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       •   you try to use an invalid regexp (ret=6).[m
+[7m Manual page git-config(1) line 32 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page git-config(1) line 33 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       On success, the command returns the exit code 0.[m
+[7m Manual page git-config(1) line 34 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page git-config(1) line 35 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       A list of all available configuration variables can be obtained using the [1mgit[0m [1mhelp[0m [1m--config[0m command.[m
+[7m Manual page git-config(1) line 36 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page git-config(1) line 37 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[1mOPTIONS[0m[m
+[7m Manual page git-config(1) line 38 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       --replace-all[m
+[7m Manual page git-config(1) line 39 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           Default behavior is to replace at most one line. This replaces all lines matching the key (and optionally[m
+[7m Manual page git-config(1) line 40 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           the [1mvalue-pattern[0m).[m
+[7m Manual page git-config(1) line 41 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page git-config(1) line 42 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       --add[m
+[7m Manual page git-config(1) line 43 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           Adds a new line to the option without altering any existing values. This is the same as providing [4m^$[24m as[m
+[7m Manual page git-config(1) line 44 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           the [1mvalue-pattern[0m in [1m--replace-all[0m.[m
+[7m Manual page git-config(1) line 45 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page git-config(1) line 46 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       --get[m
+[7m Manual page git-config(1) line 47 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           Get the value for a given key (optionally filtered by a regex matching the value). Returns error code 1 if[m
+[7m Manual page git-config(1) line 48 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           the key was not found and the last value if multiple key values were found.[m
+[7m Manual page git-config(1) line 49 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page git-config(1) line 50 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       --get-all[m
+[7m Manual page git-config(1) line 51 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           Like get, but returns all values for a multi-valued key.[m
+[7m Manual page git-config(1) line 52 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page git-config(1) line 53 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       --get-regexp[m
+[7m Manual page git-config(1) line 54 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           Like --get-all, but interprets the name as a regular expression and writes out the key names. Regular[m
+[7m Manual page git-config(1) line 55 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           expression matching is currently case-sensitive and done against a canonicalized version of the key in[m
+[7m Manual page git-config(1) line 56 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           which section and variable names are lowercased, but subsection names are not.[m
+[7m Manual page git-config(1) line 57 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page git-config(1) line 58 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       --get-urlmatch name URL[m
+[7m Manual page git-config(1) line 59 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           When given a two-part name section.key, the value for section.<url>.key whose <url> part matches the best[m
+[7m Manual page git-config(1) line 60 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           to the given URL is returned (if no such key exists, the value for section.key is used as a fallback).[m
+[7m Manual page git-config(1) line 61 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           When given just the section as name, do so for all the keys in the section and list them. Returns error[m
+[7m Manual page git-config(1) line 62 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           code 1 if no value is found.[m
+[7m Manual page git-config(1) line 63 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page git-config(1) line 64 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       --global[m
+[7m Manual page git-config(1) line 65 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           For writing options: write to global [1m~/.gitconfig[0m file rather than the repository [1m.git/config[0m, write to[m
+[7m Manual page git-config(1) line 66 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           [1m$XDG_CONFIG_HOME/git/config[0m file if this file exists and the [1m~/.gitconfig[0m file doesn’t.[m
+[7m Manual page git-config(1) line 67 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page git-config(1) line 68 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           For reading options: read only from global [1m~/.gitconfig[0m and from [1m$XDG_CONFIG_HOME/git/config[0m rather than[m
+[7m Manual page git-config(1) line 69 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           from all available files.[m
+[7m Manual page git-config(1) line 70 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page git-config(1) line 71 (press h for help or q to quit)[27m[K[K[?1l>[?1049l[23;0;0t[?2004h]0;diptarshis@TIGER05093: ~[01;32mdiptarshis@TIGER05093[00m:[01;34m~[00m$ git add -h
+[?2004lusage: git add [<options>] [--] <pathspec>...
+
+    -n, --dry-run         dry run
+    -v, --verbose         be verbose
+
+    -i, --interactive     interactive picking
+    -p, --patch           select hunks interactively
+    -e, --edit            edit current diff and apply
+    -f, --force           allow adding otherwise ignored files
+    -u, --update          update tracked files
+    --renormalize         renormalize EOL of tracked files (implies -u)
+    -N, --intent-to-add   record only the fact that the path will be added later
+    -A, --all             add changes from all tracked and untracked files
+    --ignore-removal      ignore paths removed in the working tree (same as --no-all)
+    --refresh             don't add, only refresh the index
+    --ignore-errors       just skip files which cannot be added because of errors
+    --ignore-missing      check if - even missing - files are ignored in dry run
+    --sparse              allow updating entries outside of the sparse-checkout cone
+    --chmod (+|-)x        override the executable bit of the listed files
+    --pathspec-from-file <file>
+                          read pathspec from file
+    --pathspec-file-nul   with --pathspec-from-file, pathspec elements are separated with NUL character
+
+[?2004h]0;diptarshis@TIGER05093: ~[01;32mdiptarshis@TIGER05093[00m:[01;34m~[00m$ pwd
+[?2004l/home/diptarshis
+[?2004h]0;diptarshis@TIGER05093: ~[01;32mdiptarshis@TIGER05093[00m:[01;34m~[00m$ git init
+[?2004lReinitialized existing Git repository in /home/diptarshis/.git/
+[?2004h]0;diptarshis@TIGER05093: ~[01;32mdiptarshis@TIGER05093[00m:[01;34m~[00m$ GIT CL[K[K[K[K[K[Kgit cli[Kone [7mgh repo clone diptarshis-tiger/TAMLEP-Assignments[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgh repo clone diptarshis-tiger/TAMLEP-Assignments[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[7mgit@github.com:diptarshis-tiger/TAMLEP-Assignments.git[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit@github.com:diptarshis-tiger/TAMLEP-Assignments.git
+[?2004lCloning into 'TAMLEP-Assignments'...
+remote: Enumerating objects: 7, done.[K
+remote: Counting objects:  14% (1/7)[Kremote: Counting objects:  28% (2/7)[Kremote: Counting objects:  42% (3/7)[Kremote: Counting objects:  57% (4/7)[Kremote: Counting objects:  71% (5/7)[Kremote: Counting objects:  85% (6/7)[Kremote: Counting objects: 100% (7/7)[Kremote: Counting objects: 100% (7/7), done.[K
+remote: Compressing objects:  14% (1/7)[Kremote: Compressing objects:  28% (2/7)[Kremote: Compressing objects:  42% (3/7)[Kremote: Compressing objects:  57% (4/7)[Kremote: Compressing objects:  71% (5/7)[Kremote: Compressing objects:  85% (6/7)[Kremote: Compressing objects: 100% (7/7)[Kremote: Compressing objects: 100% (7/7), done.[K
+Receiving objects:  14% (1/7)Receiving objects:  28% (2/7)Receiving objects:  42% (3/7)Receiving objects:  57% (4/7)remote: Total 7 (delta 1), reused 3 (delta 0), pack-reused 0 (from 0)[K
+Receiving objects:  71% (5/7)Receiving objects:  85% (6/7)Receiving objects: 100% (7/7)Receiving objects: 100% (7/7), 81.78 KiB | 431.00 KiB/s, done.
+Resolving deltas:   0% (0/1)Resolving deltas: 100% (1/1)Resolving deltas: 100% (1/1), done.
+[?2004h]0;diptarshis@TIGER05093: ~[01;32mdiptarshis@TIGER05093[00m:[01;34m~[00m$ ls
+[?2004lAssignment1_2_git_dsaha.txt  [0m[01;34mTAMLEP-Assignments[0m     myscript.log       [01;31mshell-lesson-data.zip[0m
+README.md                    assignment1_dsaha.txt  [01;34mshell-lesson-data[0m  shell-lesson-data.zip:Zone.Identifier
+[?2004h]0;diptarshis@TIGER05093: ~[01;32mdiptarshis@TIGER05093[00m:[01;34m~[00m$ git status
+[?2004lOn branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31m.bash_history[m
+	[31m.bash_logout[m
+	[31m.bashrc[m
+	[31m.cache/[m
+	[31m.gitconfig[m
+	[31m.lesshst[m
+	[31m.motd_shown[m
+	[31m.profile[m
+	[31m.ssh/[m
+	[31m.sudo_as_admin_successful[m
+	[31mAssignment1_2_git_dsaha.txt[m
+	[31mTAMLEP-Assignments/[m
+	[31mmyscript.log[m
+	[31mshell-lesson-data.zip[m
+	[31mshell-lesson-data.zip:Zone.Identifier[m
+	[31mshell-lesson-data/[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+[?2004h]0;diptarshis@TIGER05093: ~[01;32mdiptarshis@TIGER05093[00m:[01;34m~[00m$ echo 'Exercise started' > [K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kgit status
+[?2004lOn branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31m.bash_history[m
+	[31m.bash_logout[m
+	[31m.bashrc[m
+	[31m.cache/[m
+	[31m.gitconfig[m
+	[31m.lesshst[m
+	[31m.motd_shown[m
+	[31m.profile[m
+	[31m.ssh/[m
+	[31m.sudo_as_admin_successful[m
+	[31mAssignment1_2_git_dsaha.txt[m
+	[31mTAMLEP-Assignments/[m
+	[31mmyscript.log[m
+	[31mshell-lesson-data.zip[m
+	[31mshell-lesson-data.zip:Zone.Identifier[m
+	[31mshell-lesson-data/[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+[?2004h]0;diptarshis@TIGER05093: ~[01;32mdiptarshis@TIGER05093[00m:[01;34m~[00m$ git status
+[?2004lOn branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31m.bash_history[m
+	[31m.bash_logout[m
+	[31m.bashrc[m
+	[31m.cache/[m
+	[31m.gitconfig[m
+	[31m.lesshst[m
+	[31m.motd_shown[m
+	[31m.profile[m
+	[31m.ssh/[m
+	[31m.sudo_as_admin_successful[m
+	[31mAssignment1_2_git_dsaha.txt[m
+	[31mTAMLEP-Assignments/[m
+	[31mmyscript.log[m
+	[31mshell-lesson-data.zip[m
+	[31mshell-lesson-data.zip:Zone.Identifier[m
+	[31mshell-lesson-data/[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+[?2004h]0;diptarshis@TIGER05093: ~[01;32mdiptarshis@TIGER05093[00m:[01;34m~[00m$ [7m vim CONTRIBUTING.md[27m vim CONTRIBUTING.md[C[C[C[1P.md[1P.md[1P.md[1P.md[1P.md[1P.md[1P.md[1P.md[1P.md[1P.md[1P.md[1P.mdR.mdE.mdADME.md.mdC.md[1P.md[C[C[C[K[K[K
+[?2004l[?1049h[22;0;0t[>4;2m[?1h=[?2004h[?1004h[1;30r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[30;1H"README.md" 1L, 107B[2;1H▽[6n[2;1H  [3;1HPzz\[0%m[6n[3;1H           [1;1H[>c]10;?]11;?[1;1H[35m#[m[35m TAMLEP-Assignments. This repository consists of all of the assigment deliverables for the TAMLEP Program[m
+[94m~                                                                                                                       [3;1H~                                                                                                                       [4;1H~                                                                                                                       [5;1H~                                                                                                                       [6;1H~                                                                                                                       [7;1H~                                                                                                                       [8;1H~                                                                                                                       [9;1H~                                                                                                                       [10;1H~                                                                                                                       [11;1H~                                                                                                                       [12;1H~                                                                                                                       [13;1H~                                                                                                                       [14;1H~                                                                                                                       [15;1H~                                                                                                                       [16;1H~                                                                                                                       [17;1H~                                                                                                                       [18;1H~                                                                                                                       [19;1H~                                                                                                                       [20;1H~                                                                                                                       [21;1H~                                                                                                                       [22;1H~                                                                                                                       [23;1H~                                                                                                                       [24;1H~                                                                                                                       [25;1H~                                                                                                                       [26;1H~                                                                                                                       [27;1H~                                                                                                                       [28;1H~                                                                                                                       [29;1H~                                                                                                                       [m[30;103H1,1[11CAll[1;1H[?25h[?12$p[?25l[30;93H^[[1;1H[30;93H  [1;1H[30;93H^[[1;1H[30;93H  [1;1H[?25h[?25l[30;93Hgq[1;1H[?25h[?25l[30;95Hgq[1;1H[30;93H    [2;1H[1;71H[K[2;1Hdeliverables for the TAMLEP Program[2;36H[K[30;103H2[2;1H[?25h[?25l[30;93Hq[2;1H[?25h[?25l[30;94H![2;1H[30;93H  [2;1H[?25h[?25l[30;93H^M[2;1H[30;93H  [2;1H[?25h[?25l[30;93H~@k[2;1H[30;93H   [2;1H[?25h[?25l[30;93H~@k[2;1H[30;93H   [2;1H[?25h[?25l[30;93H~@k[2;1H[30;93H   [2;1H[?25h[?25l[30;93H~@k[2;1H[30;93H   [2;1H[?25h[?25l[30;93H~@k[2;1H[30;93H   [2;1H[?25h[?25l[30;93H~@k[2;1H[30;93H   [2;1H[?25h[?25l[30;93H~@k[2;1H[30;93H   [2;1H[?25h[?25l[30;93H~@k[2;1H[30;93H   [2;1H[?25h[?25l[30;93H~@k[2;1H[30;93H   [2;1H[?25h[?25l[30;93H~@k[2;1H[30;93H   [1;1H[30;103H1[1;1H[?25h[?25l[30;93H~@k[1;1H[30;93H   [2;1H[30;103H2[2;1H[?25h[?25l[30;1HType  :qa!  and press <Enter> to abandon all changes and exit Vim[30;103H[K[30;103H2,1[11CAll[2;1H[?25h[?25l[30;93H^M[2;1H[30;93H  [2;1H[?25h[?25l[30;93H^M[2;1H[30;93H  [2;1H[?25h[?25l[30;93Hq[2;1H[?25h[?25l[30;94Ha[2;1H[30;1H[1mrecording @a[m[30;13H[K[30;103H2,1[11CAll[2;1H[?25h[?25l[30;93H![2;1H[?25h[?25l[30;94H^M[2;1H[30;93H   [2;1H[?25h[?25l[30;93H^[[2;1H[30;93H  [2;1H[30;93H^[[2;1H[30;93H  [2;1H[?25h[?25l[30;93H^M[2;1H[30;93H  [2;1H[?25h[?25l[30;93Hq[2;1H[30;1H[K[2;1H[30;103H2,1[11CAll[2;1H[?25h[?25l[30;93Hq[2;1H[?25h[?25l[30;94Hq[2;1H[30;1H[1mrecording @q[m[30;93H[K[30;103H2,1[11CAll[2;1H[?25h[?25l[30;93Hq[2;1H[30;1H[K[2;1H[30;103H2,1[11CAll[2;1H[?25h[?25l[30;93H^M[2;1H[30;93H  [2;1H[?25h[?25l[30;93H^[[2;1H[30;93H  [2;1H[30;93H^[[2;1H[30;93H  [2;1H[?25h[?25l[30;93H^[[2;1H[30;93H  [2;1H[30;93H^[[2;1H[30;93H  [2;1H[?25h[?25l[30;93H^[[2;1H[30;93H  [2;1H[30;93H^[[2;1H[30;93H  [2;1H[?25h[?25l[30;93H^[[2;1H[30;93H  [2;1H[30;93H^[[2;1H[30;93H  [2;1H[?25h[?25l[30;93H:[2;1H[30;93H[K[30;1H:[?25hq[?25l[97m[41mE37: No write since last change (add ! to override)[2;1H[m[30;103H2,1[11CAll[2;1H[?25h[?25l[30;93H^M[2;1H[30;93H  [2;1H[?25h[?25l[30;93H^[[2;1H[30;93H  [2;1H[30;93H^[[2;1H[30;93H  [2;1H[?25h[?25l[30;93H~@k[2;1H[30;93H   [1;1H[30;103H1[1;1H[?25h[?25l[30;93H~@k[1;1H[30;93H   [1;1H[?25h[?25l[30;93H~@k[1;1H[30;93H   [1;1H[?25h[?25l[30;93H~@k[1;1H[30;93H   [2;1H[30;103H2[2;1H[?25h[?25l[30;93H~@k[2;1H[30;93H   [2;1H[?25h[?25l[30;93H~@k[2;1H[30;93H   [2;1H[?25h[?25l[30;93H~@k[2;1H[30;93H   [2;1H[?25h[?25l[30;93H~@k[2;1H[30;93H   [2;2H[30;105H2[2;2H[?25h[?25l[30;93H~@k[2;2H[30;93H   [2;3H[30;105H3[2;3H[?25h[?25l[30;93H~@k[2;3H[30;93H   [2;4H[30;105H4[2;4H[?25h[?25l[30;93H~@k[2;4H[30;93H   [2;5H[30;105H5[2;5H[?25h[?25l[30;93H~@k[2;5H[30;93H   [2;6H[30;105H6[2;6H[?25h[?25l[30;93H~@k[2;6H[30;93H   [2;7H[30;105H7[2;7H[?25h[?25l[30;93H~@k[2;7H[30;93H   [2;8H[30;105H8[2;8H[?25h[?25l[30;93H~@k[2;8H[30;93H   [2;9H[30;105H9[2;9H[?25h[?25l[30;93H~@k[2;9H[30;93H   [2;10H[30;105H10[2;10H[?25h[?25l[30;93H~@k[2;10H[30;93H   [2;11H[30;106H1[2;11H[?25h[?25l[30;93H~@k[2;11H[30;93H   [2;12H[30;106H2[2;12H[?25h[?25l[30;93H~@k[2;12H[30;93H   [2;13H[30;106H3[2;13H[?25h[?25l[30;93H~@k[2;13H[30;93H   [2;14H[30;106H4[2;14H[?25h[?25l[30;93H~@k[2;14H[30;93H   [2;15H[30;106H5[2;15H[?25h[?25l[30;93H~@k[2;15H[30;93H   [2;16H[30;106H6[2;16H[?25h[?25l[30;93H~@k[2;16H[30;93H   [2;17H[30;106H7[2;17H[?25h[?25l[30;93H~@k[2;17H[30;93H   [2;18H[30;106H8[2;18H[?25h[?25l[30;93H~@k[2;18H[30;93H   [2;19H[30;106H9[2;19H[?25h[?25l[30;93H~@k[2;19H[30;93H   [2;20H[30;105H20[2;20H[?25h[?25l[30;93H~@k[2;20H[30;93H   [2;21H[30;106H1[2;21H[?25h[?25l[30;93H~@k[2;21H[30;93H   [2;22H[30;106H2[2;22H[?25h[?25l[30;93H~@k[2;22H[30;93H   [2;23H[30;106H3[2;23H[?25h[?25l[30;93H~@k[2;23H[30;93H   [2;24H[30;106H4[2;24H[?25h[?25l[30;93H~@k[2;24H[30;93H   [2;25H[30;106H5[2;25H[?25h[?25l[30;93H~@k[2;25H[30;93H   [2;26H[30;106H6[2;26H[?25h[?25l[30;93H~@k[2;26H[30;93H   [2;27H[30;106H7[2;27H[?25h[?25l[30;93H~@k[2;27H[30;93H   [2;28H[30;106H8[2;28H[?25h[?25l[30;93H~@k[2;28H[30;93H   [2;29H[30;106H9[2;29H[?25h[?25l[30;93H~@k[2;29H[30;93H   [2;30H[30;105H30[2;30H[?25h[?25l[30;93H~@k[2;30H[30;93H   [2;31H[30;106H1[2;31H[?25h[?25l[30;93H~@k[2;31H[30;93H   [2;32H[30;106H2[2;32H[?25h[?25l[30;93H~@k[2;32H[30;93H   [2;33H[30;106H3[2;33H[?25h[?25l[30;93H~@k[2;33H[30;93H   [2;34H[30;106H4[2;34H[?25h[?25l[30;93H~@k[2;34H[30;93H   [2;35H[30;106H5[2;35H[?25h[?25l[30;93H~@k[2;35H[30;93H   [2;35H[?25h[?25l[30;93H~@k[2;35H[30;93H   [2;35H[?25h[?25l[30;93H~@k[2;35H[30;93H   [2;35H[?25h[?25l[30;93H~@k[2;35H[30;93H   [2;35H[?25h[?25l[30;93H~@k[2;35H[30;93H   [2;35H[?25h[?25l[30;93H~@k[2;35H[30;93H   [2;35H[?25h[?25l[30;93H~@k[2;35H[30;93H   [2;35H[?25h[?25l[30;93H~@k[2;35H[30;93H   [2;35H[?25h[?25l[30;93H~@k[2;35H[30;93H   [2;34H[30;106H4[2;34H[?25h[?25l[30;93H~@k[2;34H[30;93H   [2;33H[30;106H3[2;33H[?25h[?25l[30;93H~@k[2;33H[30;93H   [2;32H[30;106H2[2;32H[?25h[?25l[30;93H~@k[2;32H[30;93H   [2;33H[30;106H3[2;33H[?25h[?25l[30;93H~@k[2;33H[30;93H   [2;34H[30;106H4[2;34H[?25h[?25l[30;93H![2;34H[?25h[?25l[30;94H^M[2;34H[30;93H   [2;34H[?25h[?25l[30;93H^[[2;34H[30;93H  [2;34H[30;93H^[[2;34H[30;93H  [2;34H[?25h[?25l[30;93H~@k[2;34H[30;93H   [2;35H[30;106H5[2;35H[?25h[?25l[30;93H~@k[2;35H[30;93H   [2;35H[?25h[?25l[30;93H~@k[2;35H[30;93H   [2;35H[?25h[?25l[30;93H~@k[2;35H[30;93H   [2;35H[?25h[?25l[30;93H~@k[2;35H[30;93H   [2;35H[?25h[?25l[30;93H~@k[2;35H[30;93H   [2;35H[?25h[?25l[30;93H~@k[2;35H[30;93H   [2;35H[?25h[?25l[30;93H~@k[2;35H[30;93H   [2;35H[?25h[?25l[30;93H~@k[2;35H[30;93H   [2;34H[30;106H4[2;34H[?25h[?25l[30;93H~@k[2;34H[30;93H   [2;33H[30;106H3[2;33H[?25h[?25l[30;93H~@k[2;33H[30;93H   [2;32H[30;106H2[2;32H[?25h[?25l[30;93H~@k[2;32H[30;93H   [2;31H[30;106H1[2;31H[?25h[?25l[30;93H~@k[2;31H[30;93H   [2;30H[30;106H0[2;30H[?25h[?25l[30;93H~@k[2;30H[30;93H   [2;29H[30;105H29[2;29H[?25h[?25l[30;93H~@k[2;29H[30;93H   [2;28H[30;106H8[2;28H[?25h[?25l[30;93H~@k[2;28H[30;93H   [2;27H[30;106H7[2;27H[?25h[?25l[30;93H~@k[2;27H[30;93H   [2;26H[30;106H6[2;26H[?25h[?25l[30;93H~@k[2;26H[30;93H   [2;25H[30;106H5[2;25H[?25h[?25l[30;93H~@k[2;25H[30;93H   [2;24H[30;106H4[2;24H[?25h[?25l[30;93H~@k[2;24H[30;93H   [2;23H[30;106H3[2;23H[?25h[?25l[30;93H~@k[2;23H[30;93H   [2;22H[30;106H2[2;22H[?25h[?25l[30;93H~@k[2;22H[30;93H   [2;21H[30;106H1[2;21H[?25h[?25l[30;106H0[2;20H[?25h[?25l[30;93H~@k[2;20H[30;93H   [2;19H[30;105H19[2;19H[?25h[?25l[30;93H~@k[2;19H[30;93H   [2;18H[30;106H8[2;18H[?25h[?25l[30;93H~@k[2;18H[30;93H   [2;17H[30;106H7[2;17H[?25h[?25l[30;93H~@k[2;17H[30;93H   [2;16H[30;106H6[2;16H[?25h[?25l[30;93H~@k[2;16H[30;93H   [2;15H[30;106H5[2;15H[?25h[?25l[30;93H~@k[2;15H[30;93H   [2;14H[30;106H4[2;14H[?25h[?25l[30;93H~@k[2;14H[30;93H   [2;13H[30;106H3[2;13H[?25h[?25l[30;93H~@k[2;13H[30;93H   [2;12H[30;106H2[2;12H[?25h[?25l[30;93H~@k[2;12H[30;93H   [2;11H[30;106H1[2;11H[?25h[?25l[30;93H~@k[2;11H[30;93H   [2;10H[30;106H0[2;10H[?25h[?25l[30;93H~@k[2;10H[30;93H   [2;9H[30;105H9 [2;9H[?25h[?25l[30;93H~@k[2;9H[30;93H   [2;8H[30;105H8[2;8H[?25h[?25l[30;93H~@k[2;8H[30;93H   [2;7H[30;105H7[2;7H[?25h[?25l[30;93H~@k[2;7H[30;93H   [2;6H[30;105H6[2;6H[?25h[?25l[30;93H~@k[2;6H[30;93H   [2;5H[30;105H5[2;5H[?25h[?25l[30;93H~@k[2;5H[30;93H   [2;4H[30;105H4[2;4H[?25h[?25l[30;93H~@k[2;4H[30;93H   [2;3H[30;105H3[2;3H[?25h[?25l[30;93H~@k[2;3H[30;93H   [2;2H[30;105H2[2;2H[?25h[?25l[30;93H~@k[2;2H[30;93H   [2;1H[30;105H1[2;1H[?25h[?25l[30;93H#[2;1H[30;1H?\<deliverables\> [30;19H[K[30;1H[31msearch hit TOP, continuing at BOTTOM[2;1H[m[30;103H2,1[11CAll[30;103H[K[30;103H2,1[11CAll[2;1H[?25h[?25l[30;93H~@k[2;1H[30;93H   [2;1H[?25h[?25l[30;93H~@k[2;1H[30;93H   [2;1H[?25h[?25l[30;93H~@k[2;1H[30;93H   [1;1H[30;103H1[1;1H[?25h[?25l[30;93H~@k[1;1H[30;93H   [1;1H[?25h[?25l[30;93H~@k[1;1H[30;93H   [2;1H[30;103H2[2;1H[?25h[?25l[30;93H~@k[2;1H[30;93H   [2;1H[?25h[?25l[30;93H~@k[2;1H[30;93H   [2;1H[?25h[?25l[30;93H~@k[2;1H[30;93H   [2;1H[?25h[?25l[30;93H~@k[2;1H[30;93H   [2;1H[?25h[?25l[30;93H~@k[2;1H[30;93H   [2;1H[?25h[?25l[30;93H~@k[2;1H[30;93H   [2;2H[30;105H2[2;2H[?25h[?25l[30;93H~@k[2;2H[30;93H   [2;3H[30;105H3[2;3H[?25h[?25l[30;93H~@k[2;3H[30;93H   [2;4H[30;105H4[2;4H[?25h[?25l[30;93H~@k[2;4H[30;93H   [2;5H[30;105H5[2;5H[?25h[?25l[30;93H~@k[2;5H[30;93H   [2;6H[30;105H6[2;6H[?25h[?25l[30;93H~@k[2;6H[30;93H   [2;7H[30;105H7[2;7H[?25h[?25l[30;93H~@k[2;7H[30;93H   [2;8H[30;105H8[2;8H[?25h[?25l[30;93H~@k[2;8H[30;93H   [2;9H[30;105H9[2;9H[?25h[?25l[30;93H~@k[2;9H[30;93H   [2;10H[30;105H10[2;10H[?25h[?25l[30;93H~@k[2;10H[30;93H   [2;11H[30;106H1[2;11H[?25h[?25l[30;93H~@k[2;11H[30;93H   [2;12H[30;106H2[2;12H[?25h[?25l[30;93H~@k[2;12H[30;93H   [2;13H[30;106H3[2;13H[?25h[?25l[30;93H~@k[2;13H[30;93H   [2;14H[30;106H4[2;14H[?25h[?25l[30;93H~@k[2;14H[30;93H   [2;15H[30;106H5[2;15H[?25h[?25l[30;93H~@k[2;15H[30;93H   [2;16H[30;106H6[2;16H[?25h[?25l[30;93H^M[2;16H[30;93H  [2;16H[?25h[?25l[30;93H^M[2;16H[30;93H  [2;16H[?25h[?25l[30;93Hq[2;16H[?25h[?25l[30;94H~@k[2;16H[30;93H    [2;16H[?25h[?25l[30;93H![2;16H[?25h[?25l[30;94Hq[2;16H[30;93H  [2;16H[?25h[?25l[30;93H:[2;16H[30;1H[K[30;1H:[?25hq[?25l[97m[41mE37: No write since last change (add ! to override)[2;16H[m[30;103H2,16[10CAll[2;16H[?25h[?25l[30;93H:[2;16H[30;1H[K[30;1H:[?25h!ps ax | grep vim | grep -v grep | awk ''{'}'p}'r}'i}'n}'t}' }'$}'1}'}' | xargs -n1 kill -9[?25l[72C[?1004l[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t
+[No write since last change]
+Killed
+[?2004h]0;diptarshis@TIGER05093: ~[01;32mdiptarshis@TIGER05093[00m:[01;34m~[00m$ cat README.md
+[?2004l# TAMLEP-Assignments. This repository consists of all of the assigment deliverables for the TAMLEP Program
+[?2004h]0;diptarshis@TIGER05093: ~[01;32mdiptarshis@TIGER05093[00m:[01;34m~[00m$ [7mgit status[27m[1Pgit statu[K[K[K[K[K[K[K[K[Kgit status -s
+[?2004l[31m??[m .README.md.swp
+[31m??[m .bash_history
+[31m??[m .bash_logout
+[31m??[m .bashrc
+[31m??[m .cache/
+[31m??[m .gitconfig
+[31m??[m .lesshst
+[31m??[m .motd_shown
+[31m??[m .profile
+[31m??[m .ssh/
+[31m??[m .sudo_as_admin_successful
+[31m??[m Assignment1_2_git_dsaha.txt
+[31m??[m TAMLEP-Assignments/
+[31m??[m myscript.log
+[31m??[m shell-lesson-data.zip
+[31m??[m shell-lesson-data.zip:Zone.Identifier
+[31m??[m shell-lesson-data/
+[?2004h]0;diptarshis@TIGER05093: ~[01;32mdiptarshis@TIGER05093[00m:[01;34m~[00m$ cat .gitignore
+[?2004lcat: .gitignore: No such file or directory
+[?2004h]0;diptarshis@TIGER05093: ~[01;32mdiptarshis@TIGER05093[00m:[01;34m~[00m$ git diff
+[?2004l[?1h=[K[?1l>[?2004h]0;diptarshis@TIGER05093: ~[01;32mdiptarshis@TIGER05093[00m:[01;34m~[00m$ git diff --staged
+[?2004l[?1h=[K[?1l>[?2004h]0;diptarshis@TIGER05093: ~[01;32mdiptarshis@TIGER05093[00m:[01;34m~[00m$ git status
+[?2004lOn branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31m.README.md.swp[m
+	[31m.bash_history[m
+	[31m.bash_logout[m
+	[31m.bashrc[m
+	[31m.cache/[m
+	[31m.gitconfig[m
+	[31m.lesshst[m
+	[31m.motd_shown[m
+	[31m.profile[m
+	[31m.ssh/[m
+	[31m.sudo_as_admin_successful[m
+	[31mAssignment1_2_git_dsaha.txt[m
+	[31mTAMLEP-Assignments/[m
+	[31mmyscript.log[m
+	[31mshell-lesson-data.zip[m
+	[31mshell-lesson-data.zip:Zone.Identifier[m
+	[31mshell-lesson-data/[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+[?2004h]0;diptarshis@TIGER05093: ~[01;32mdiptarshis@TIGER05093[00m:[01;34m~[00m$ git branch
+[?2004l[?1h=* [32mmain[m[m
+[K[?1l>[?2004h]0;diptarshis@TIGER05093: ~[01;32mdiptarshis@TIGER05093[00m:[01;34m~[00m$ cat README.md
+[?2004l# TAMLEP-Assignments. This repository consists of all of the assigment deliverables for the TAMLEP Program
+[?2004h]0;diptarshis@TIGER05093: ~[01;32mdiptarshis@TIGER05093[00m:[01;34m~[00m$ echo ''#'#'#' 'A'l'l' 'o'f' 't'h'e' 't'x't' 'f'i'l'e's' 'r'e'f'e'r' 't'o' 't'h'e' 'r'e'c'o'r'd'i'n'g's'srecordings'hrecordings'erecordings'lrecordings'lrecordings' recordings'[C[C[C[C[C[C[C[C[C[C[C > README.md> README.md[C[C[C[C[C[C[C[C[C[C
+[?2004l[?2004h]0;diptarshis@TIGER05093: ~[01;32mdiptarshis@TIGER05093[00m:[01;34m~[00m$ echo '### All of the txt files refer to the shell recordings' >> README.md[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccat README.md[K
+[?2004l# TAMLEP-Assignments. This repository consists of all of the assigment deliverables for the TAMLEP Program
+### All of the txt files refer to the shell recordings
+[?2004h]0;diptarshis@TIGER05093: ~[01;32mdiptarshis@TIGER05093[00m:[01;34m~[00m$ git add README.md
+[?2004l[?2004h]0;diptarshis@TIGER05093: ~[01;32mdiptarshis@TIGER05093[00m:[01;34m~[00m$ git diff
+[?2004l[?1h=[K[?1l>[?2004h]0;diptarshis@TIGER05093: ~[01;32mdiptarshis@TIGER05093[00m:[01;34m~[00m$ git status
+[?2004lOn branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	[32mmodified:   README.md[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31m.README.md.swp[m
+	[31m.bash_history[m
+	[31m.bash_logout[m
+	[31m.bashrc[m
+	[31m.cache/[m
+	[31m.gitconfig[m
+	[31m.lesshst[m
+	[31m.motd_shown[m
+	[31m.profile[m
+	[31m.ssh/[m
+	[31m.sudo_as_admin_successful[m
+	[31mAssignment1_2_git_dsaha.txt[m
+	[31mTAMLEP-Assignments/[m
+	[31mmyscript.log[m
+	[31mshell-lesson-data.zip[m
+	[31mshell-lesson-data.zip:Zone.Identifier[m
+	[31mshell-lesson-data/[m
+
+[?2004h]0;diptarshis@TIGER05093: ~[01;32mdiptarshis@TIGER05093[00m:[01;34m~[00m$ git diff --cached
+[?2004l[?1h=[1mdiff --git a/README.md b/README.md[m[m
+[1mindex fe3c39a..c782eb3 100644[m[m
+[1m--- a/README.md[m[m
+[1m+++ b/README.md[m[m
+[36m@@ -1 +1,2 @@[m[m
+ # TAMLEP-Assignments. This repository consists of all of the assigment deliverables for the TAMLEP Program[m[m
+[32m+[m[32m### All of the txt files refer to the shell recordings[m[m
+[K[?1l>[?2004h]0;diptarshis@TIGER05093: ~[01;32mdiptarshis@TIGER05093[00m:[01;34m~[00m$ gt[Kit commit -m "Updating the README file" "a"s" "p"a"r"t" "o"f" "t"h"e" "g"i"t" "e"x"e"r"c"i"s"e"[C
+[?2004l[main 4c8c957] Updating the README file as part of the git exercise
+ 1 file changed, 1 insertion(+)
+[?2004h]0;diptarshis@TIGER05093: ~[01;32mdiptarshis@TIGER05093[00m:[01;34m~[00m$ [7mgit push -u origin main[27mgit push -u origin main
+[?2004lTo github.com:diptarshis-tiger/TAMLEP-Assignments.git
+ [31m! [rejected]       [m main -> main (fetch first)
+[31merror: failed to push some refs to 'github.com:diptarshis-tiger/TAMLEP-Assignments.git'
+[m[33mhint: Updates were rejected because the remote contains work that you do[m
+[33mhint: not have locally. This is usually caused by another repository pushing[m
+[33mhint: to the same ref. You may want to first integrate the remote changes[m
+[33mhint: (e.g., 'git pull ...') before pushing again.[m
+[33mhint: See the 'Note about fast-forwards' in 'git push --help' for details.[m
+[?2004h]0;diptarshis@TIGER05093: ~[01;32mdiptarshis@TIGER05093[00m:[01;34m~[00m$ git push -u origin main --force
+[?2004lEnumerating objects: 7, done.
+Counting objects:  14% (1/7)Counting objects:  28% (2/7)Counting objects:  42% (3/7)Counting objects:  57% (4/7)Counting objects:  71% (5/7)Counting objects:  85% (6/7)Counting objects: 100% (7/7)Counting objects: 100% (7/7), done.
+Delta compression using up to 12 threads
+Compressing objects:  14% (1/7)Compressing objects:  28% (2/7)Compressing objects:  42% (3/7)Compressing objects:  57% (4/7)Compressing objects:  71% (5/7)Compressing objects:  85% (6/7)Compressing objects: 100% (7/7)Compressing objects: 100% (7/7), done.
+Writing objects:  14% (1/7)Writing objects:  28% (2/7)Writing objects:  42% (3/7)Writing objects:  57% (4/7)Writing objects:  71% (5/7)Writing objects:  85% (6/7)Writing objects: 100% (7/7)Writing objects: 100% (7/7), 81.20 KiB | 2.46 MiB/s, done.
+Total 7 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas:   0% (0/1)[Kremote: Resolving deltas: 100% (1/1)[Kremote: Resolving deltas: 100% (1/1), done.[K
+To github.com:diptarshis-tiger/TAMLEP-Assignments.git
+ + 8da4107...4c8c957 main -> main (forced update)
+Branch 'main' set up to track remote branch 'main' from 'origin'.
+[?2004h]0;diptarshis@TIGER05093: ~[01;32mdiptarshis@TIGER05093[00m:[01;34m~[00m$ git clone [7mgit@github.com:schacon/simplegit-progit.git[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit@github.com:schacon/simplegit-progit.git
+[?2004lCloning into 'simplegit-progit'...
+remote: Enumerating objects: 13, done.[K
+remote: Total 13 (delta 0), reused 0 (delta 0), pack-reused 13 (from 1)[K
+Receiving objects:   7% (1/13)Receiving objects:  15% (2/13)Receiving objects:  23% (3/13)Receiving objects:  30% (4/13)Receiving objects:  38% (5/13)Receiving objects:  46% (6/13)Receiving objects:  53% (7/13)Receiving objects:  61% (8/13)Receiving objects:  69% (9/13)Receiving objects:  76% (10/13)Receiving objects:  84% (11/13)Receiving objects:  92% (12/13)Receiving objects: 100% (13/13)Receiving objects: 100% (13/13), done.
+Resolving deltas:   0% (0/3)Resolving deltas:  33% (1/3)Resolving deltas:  66% (2/3)Resolving deltas: 100% (3/3)Resolving deltas: 100% (3/3), done.
+[?2004h]0;diptarshis@TIGER05093: ~[01;32mdiptarshis@TIGER05093[00m:[01;34m~[00m$ cd[K[Kls
+[?2004lAssignment1_2_git_dsaha.txt  assignment1_dsaha.txt  [0m[01;31mshell-lesson-data.zip[0m
+README.md                    myscript.log           shell-lesson-data.zip:Zone.Identifier
+[01;34mTAMLEP-Assignments[0m           [01;34mshell-lesson-data[0m      [01;34msimplegit-progit[0m
+[?2004h]0;diptarshis@TIGER05093: ~[01;32mdiptarshis@TIGER05093[00m:[01;34m~[00m$ cd ./simpleg[Kgit-g[Kprogit
+[?2004l[?2004h]0;diptarshis@TIGER05093: ~/simplegit-progit[01;32mdiptarshis@TIGER05093[00m:[01;34m~/simplegit-progit[00m$ ls
+[?2004lREADME  Rakefile  [0m[01;34mlib[0m
+[?2004h]0;diptarshis@TIGER05093: ~/simplegit-progit[01;32mdiptarshis@TIGER05093[00m:[01;34m~/simplegit-progit[00m$ git log
+[?2004l[?1h=[33mcommit ca82a6dff817ec66f44342007202690a93763949[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Mon Mar 17 21:52:11 2008 -0700[m
+[m
+    changed the verison number[m
+[m
+[33mcommit 085bb3bcb608e1e8451d4b2432f8ecbe6306e7e7[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 16:40:33 2008 -0700[m
+[m
+    removed unnecessary test code[m
+[m
+[33mcommit a11bef06a3f659402fe7563abf99ad00de2209e6[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 10:31:28 2008 -0700[m
+[m
+    first commit[m
+[K[?1l>[?2004h]0;diptarshis@TIGER05093: ~/simplegit-progit[01;32mdiptarshis@TIGER05093[00m:[01;34m~/simplegit-progit[00m$ cd ..
+[?2004l[?2004h]0;diptarshis@TIGER05093: ~[01;32mdiptarshis@TIGER05093[00m:[01;34m~[00m$ git log
+[?2004l[?1h=[33mcommit 4c8c95741c2796f65894cf2edd4158daae935b90[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m[m
+Author: diptarshis-tiger <diptarshi.saha@tigeranalytics.com>[m
+Date:   Sun Oct 6 21:15:19 2024 +0530[m
+[m
+    Updating the README file as part of the git exercise[m
+[m
+[33mcommit 3c6c40f861eb72bf3267c9cc6ba6060787ee6b3d[m[m
+Author: diptarshis-tiger <diptarshi.saha@tigeranalytics.com>[m
+Date:   Sun Oct 6 11:13:49 2024 +0530[m
+[m
+    Committing the first assignment txt file comprising of Shell exercises[m
+[K[?1l>[?2004h]0;diptarshis@TIGER05093: ~[01;32mdiptarshis@TIGER05093[00m:[01;34m~[00m$ cd[K[Kgit log[2Pcd ..git logls[Kcd ./simplegit-progit
+[?2004l[?2004h]0;diptarshis@TIGER05093: ~/simplegit-progit[01;32mdiptarshis@TIGER05093[00m:[01;34m~/simplegit-progit[00m$ cd ./simplegit-progit[14Pgit log
+[?2004l[?1h=[33mcommit ca82a6dff817ec66f44342007202690a93763949[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Mon Mar 17 21:52:11 2008 -0700[m
+[m
+    changed the verison number[m
+[m
+[33mcommit 085bb3bcb608e1e8451d4b2432f8ecbe6306e7e7[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 16:40:33 2008 -0700[m
+[m
+    removed unnecessary test code[m
+[m
+[33mcommit a11bef06a3f659402fe7563abf99ad00de2209e6[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 10:31:28 2008 -0700[m
+[m
+    first commit[m
+[K[?1l>[?2004h]0;diptarshis@TIGER05093: ~/simplegit-progit[01;32mdiptarshis@TIGER05093[00m:[01;34m~/simplegit-progit[00m$ git log -p
+[?2004l[?1h=[33mcommit ca82a6dff817ec66f44342007202690a93763949[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Mon Mar 17 21:52:11 2008 -0700[m
+[m
+    changed the verison number[m
+[m
+[1mdiff --git a/Rakefile b/Rakefile[m[m
+[1mindex a874b73..8f94139 100644[m[m
+[1m--- a/Rakefile[m[m
+[1m+++ b/Rakefile[m[m
+[36m@@ -5,7 +5,7 @@[m [mrequire 'rake/gempackagetask'[m[m
+ spec = Gem::Specification.new do |s|[m[m
+     s.platform  =   Gem::Platform::RUBY[m[m
+     s.name      =   "simplegit"[m[m
+[31m-    s.version   =   "0.1.0"[m[m
+[32m+[m[32m    s.version   =   "0.1.1"[m[m
+     s.author    =   "Scott Chacon"[m[m
+     s.email     =   "schacon@gmail.com"[m[m
+     s.summary   =   "A simple gem for using Git in Ruby code."[m[m
+[m
+[33mcommit 085bb3bcb608e1e8451d4b2432f8ecbe6306e7e7[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 16:40:33 2008 -0700[m
+[m
+    removed unnecessary test code[m
+[m
+[1mdiff --git a/lib/simplegit.rb b/lib/simplegit.rb[m[m
+[1mindex a0a60ae..47c6340 100644[m[m
+[1m--- a/lib/simplegit.rb[m[m
+:[K[K[?1l>[?2004h]0;diptarshis@TIGER05093: ~/simplegit-progit[01;32mdiptarshis@TIGER05093[00m:[01;34m~/simplegit-progit[00m$ git log -p
+[?2004l[?1h=[33mcommit ca82a6dff817ec66f44342007202690a93763949[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Mon Mar 17 21:52:11 2008 -0700[m
+[m
+    changed the verison number[m
+[m
+[1mdiff --git a/Rakefile b/Rakefile[m[m
+[1mindex a874b73..8f94139 100644[m[m
+[1m--- a/Rakefile[m[m
+[1m+++ b/Rakefile[m[m
+[36m@@ -5,7 +5,7 @@[m [mrequire 'rake/gempackagetask'[m[m
+ spec = Gem::Specification.new do |s|[m[m
+     s.platform  =   Gem::Platform::RUBY[m[m
+     s.name      =   "simplegit"[m[m
+[31m-    s.version   =   "0.1.0"[m[m
+[32m+[m[32m    s.version   =   "0.1.1"[m[m
+     s.author    =   "Scott Chacon"[m[m
+     s.email     =   "schacon@gmail.com"[m[m
+     s.summary   =   "A simple gem for using Git in Ruby code."[m[m
+[m
+[33mcommit 085bb3bcb608e1e8451d4b2432f8ecbe6306e7e7[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 16:40:33 2008 -0700[m
+[m
+    removed unnecessary test code[m
+[m
+[1mdiff --git a/lib/simplegit.rb b/lib/simplegit.rb[m[m
+[1mindex a0a60ae..47c6340 100644[m[m
+[1m--- a/lib/simplegit.rb[m[m
+:[K[K[?1l>[?2004h]0;diptarshis@TIGER05093: ~/simplegit-progit[01;32mdiptarshis@TIGER05093[00m:[01;34m~/simplegit-progit[00m$ git log --stats[K
+[?2004l[?1h=[33mcommit ca82a6dff817ec66f44342007202690a93763949[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Mon Mar 17 21:52:11 2008 -0700[m
+[m
+    changed the verison number[m
+[m
+ Rakefile | 2 [32m+[m[31m-[m[m
+ 1 file changed, 1 insertion(+), 1 deletion(-)[m
+[m
+[33mcommit 085bb3bcb608e1e8451d4b2432f8ecbe6306e7e7[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 16:40:33 2008 -0700[m
+[m
+    removed unnecessary test code[m
+[m
+ lib/simplegit.rb | 5 [31m-----[m[m
+ 1 file changed, 5 deletions(-)[m
+[m
+[33mcommit a11bef06a3f659402fe7563abf99ad00de2209e6[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 10:31:28 2008 -0700[m
+[m
+    first commit[m
+[m
+ README           |  6 [32m++++++[m[m
+ Rakefile         | 23 [32m+++++++++++++++++++++++[m[m
+ lib/simplegit.rb | 25 [32m+++++++++++++++++++++++++[m[m
+ 3 files changed, 54 insertions(+)[m
+[K[?1l>[?2004h]0;diptarshis@TIGER05093: ~/simplegit-progit[01;32mdiptarshis@TIGER05093[00m:[01;34m~/simplegit-progit[00m$ git log --pretty=format
+[?2004lfatal: invalid --pretty format: format
+[?2004h]0;diptarshis@TIGER05093: ~/simplegit-progit[01;32mdiptarshis@TIGER05093[00m:[01;34m~/simplegit-progit[00m$ [7mgit log --since=2.weeks[27mgit log --since=2.weeks
+[?2004l[?1h=[K[?1l>[?2004h]0;diptarshis@TIGER05093: ~/simplegit-progit[01;32mdiptarshis@TIGER05093[00m:[01;34m~/simplegit-progit[00m$ cd ..
+[?2004l[?2004h]0;diptarshis@TIGER05093: ~[01;32mdiptarshis@TIGER05093[00m:[01;34m~[00m$ git remote
+[?2004lorigin
+[?2004h]0;diptarshis@TIGER05093: ~[01;32mdiptarshis@TIGER05093[00m:[01;34m~[00m$ git remote -v
+[?2004lorigin	git@github.com:diptarshis-tiger/TAMLEP-Assignments.git (fetch)
+origin	git@github.com:diptarshis-tiger/TAMLEP-Assignments.git (push)
+[?2004h]0;diptarshis@TIGER05093: ~[01;32mdiptarshis@TIGER05093[00m:[01;34m~[00m$ [7mgit remote add pb https://github.com/paulboone/ticgit[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit remote add pb https://github.com/paulboone/ticgit
+[?2004l[?2004h]0;diptarshis@TIGER05093: ~[01;32mdiptarshis@TIGER05093[00m:[01;34m~[00m$ [7mgit remote -v[27mgit remote -v
+[?2004lorigin	git@github.com:diptarshis-tiger/TAMLEP-Assignments.git (fetch)
+origin	git@github.com:diptarshis-tiger/TAMLEP-Assignments.git (push)
+pb	https://github.com/paulboone/ticgit (fetch)
+pb	https://github.com/paulboone/ticgit (push)
+[?2004h]0;diptarshis@TIGER05093: ~[01;32mdiptarshis@TIGER05093[00m:[01;34m~[00m$ [7mgit fetch pb[27mgit fetch pb
+[?2004lremote: Enumerating objects: 634, done.[K
+Receiving objects:   0% (1/634)Receiving objects:   1% (7/634)Receiving objects:   2% (13/634)Receiving objects:   3% (20/634)Receiving objects:   4% (26/634)Receiving objects:   5% (32/634)Receiving objects:   6% (39/634)Receiving objects:   7% (45/634)Receiving objects:   8% (51/634)Receiving objects:   9% (58/634)Receiving objects:  10% (64/634)Receiving objects:  11% (70/634)Receiving objects:  12% (77/634)Receiving objects:  13% (83/634)Receiving objects:  14% (89/634)Receiving objects:  15% (96/634)Receiving objects:  16% (102/634)Receiving objects:  17% (108/634)Receiving objects:  18% (115/634)Receiving objects:  19% (121/634)Receiving objects:  20% (127/634)Receiving objects:  21% (134/634)Receiving objects:  22% (140/634)Receiving objects:  23% (146/634)Receiving objects:  24% (153/634)Receiving objects:  25% (159/634)Receiving objects:  26% (165/634)Receiving objects:  27% (172/634)Receiving objects:  28% (178/634)Receiving objects:  29% (184/634)Receiving objects:  30% (191/634)Receiving objects:  31% (197/634)Receiving objects:  32% (203/634)Receiving objects:  33% (210/634)Receiving objects:  34% (216/634)Receiving objects:  35% (222/634)Receiving objects:  36% (229/634)Receiving objects:  37% (235/634)Receiving objects:  38% (241/634)Receiving objects:  39% (248/634)Receiving objects:  40% (254/634)Receiving objects:  41% (260/634)Receiving objects:  42% (267/634)Receiving objects:  43% (273/634)Receiving objects:  44% (279/634)Receiving objects:  45% (286/634)Receiving objects:  46% (292/634)Receiving objects:  47% (298/634)Receiving objects:  48% (305/634)Receiving objects:  49% (311/634)Receiving objects:  50% (317/634)Receiving objects:  51% (324/634)Receiving objects:  52% (330/634)Receiving objects:  53% (337/634)Receiving objects:  54% (343/634)Receiving objects:  55% (349/634)Receiving objects:  56% (356/634)Receiving objects:  57% (362/634)Receiving objects:  58% (368/634)Receiving objects:  59% (375/634)Receiving objects:  60% (381/634)Receiving objects:  61% (387/634)Receiving objects:  62% (394/634)Receiving objects:  63% (400/634)Receiving objects:  64% (406/634)Receiving objects:  65% (413/634)Receiving objects:  66% (419/634)Receiving objects:  67% (425/634)Receiving objects:  68% (432/634)Receiving objects:  69% (438/634)Receiving objects:  70% (444/634)Receiving objects:  71% (451/634)Receiving objects:  72% (457/634)Receiving objects:  73% (463/634)Receiving objects:  74% (470/634)Receiving objects:  75% (476/634)Receiving objects:  76% (482/634)Receiving objects:  77% (489/634)Receiving objects:  78% (495/634)Receiving objects:  79% (501/634)Receiving objects:  80% (508/634)Receiving objects:  81% (514/634)Receiving objects:  82% (520/634)Receiving objects:  83% (527/634)Receiving objects:  84% (533/634)Receiving objects:  85% (539/634)Receiving objects:  86% (546/634)Receiving objects:  87% (552/634)Receiving objects:  88% (558/634)Receiving objects:  89% (565/634)Receiving objects:  90% (571/634)Receiving objects:  91% (577/634)remote: Total 634 (delta 0), reused 0 (delta 0), pack-reused 634 (from 1)[K
+Receiving objects:  92% (584/634)Receiving objects:  93% (590/634)Receiving objects:  94% (596/634)Receiving objects:  95% (603/634)Receiving objects:  96% (609/634)Receiving objects:  97% (615/634)Receiving objects:  98% (622/634)Receiving objects:  99% (628/634)Receiving objects: 100% (634/634)Receiving objects: 100% (634/634), 88.93 KiB | 1.25 MiB/s, done.
+Resolving deltas:   0% (0/261)Resolving deltas:   1% (3/261)Resolving deltas:   2% (6/261)Resolving deltas:   3% (8/261)Resolving deltas:   4% (11/261)Resolving deltas:   5% (14/261)Resolving deltas:   6% (16/261)Resolving deltas:   7% (19/261)Resolving deltas:   8% (21/261)Resolving deltas:   9% (24/261)Resolving deltas:  10% (27/261)Resolving deltas:  11% (29/261)Resolving deltas:  12% (32/261)Resolving deltas:  13% (34/261)Resolving deltas:  14% (37/261)Resolving deltas:  15% (40/261)Resolving deltas:  16% (43/261)Resolving deltas:  17% (45/261)Resolving deltas:  18% (48/261)Resolving deltas:  19% (50/261)Resolving deltas:  20% (53/261)Resolving deltas:  21% (56/261)Resolving deltas:  22% (58/261)Resolving deltas:  23% (61/261)Resolving deltas:  24% (63/261)Resolving deltas:  25% (66/261)Resolving deltas:  26% (68/261)Resolving deltas:  27% (71/261)Resolving deltas:  28% (74/261)Resolving deltas:  29% (76/261)Resolving deltas:  30% (79/261)Resolving deltas:  31% (81/261)Resolving deltas:  32% (84/261)Resolving deltas:  33% (87/261)Resolving deltas:  34% (89/261)Resolving deltas:  35% (92/261)Resolving deltas:  36% (94/261)Resolving deltas:  37% (97/261)Resolving deltas:  38% (100/261)Resolving deltas:  39% (102/261)Resolving deltas:  40% (105/261)Resolving deltas:  41% (108/261)Resolving deltas:  42% (110/261)Resolving deltas:  43% (113/261)Resolving deltas:  44% (115/261)Resolving deltas:  45% (118/261)Resolving deltas:  46% (121/261)Resolving deltas:  47% (123/261)Resolving deltas:  48% (126/261)Resolving deltas:  49% (128/261)Resolving deltas:  50% (131/261)Resolving deltas:  51% (134/261)Resolving deltas:  52% (136/261)Resolving deltas:  53% (139/261)Resolving deltas:  54% (141/261)Resolving deltas:  55% (144/261)Resolving deltas:  56% (147/261)Resolving deltas:  57% (149/261)Resolving deltas:  58% (153/261)Resolving deltas:  59% (154/261)Resolving deltas:  60% (157/261)Resolving deltas:  61% (160/261)Resolving deltas:  62% (162/261)Resolving deltas:  63% (165/261)Resolving deltas:  64% (168/261)Resolving deltas:  65% (170/261)Resolving deltas:  66% (173/261)Resolving deltas:  67% (175/261)Resolving deltas:  68% (178/261)Resolving deltas:  69% (181/261)Resolving deltas:  70% (183/261)Resolving deltas:  71% (186/261)Resolving deltas:  72% (188/261)Resolving deltas:  73% (191/261)Resolving deltas:  74% (194/261)Resolving deltas:  75% (196/261)Resolving deltas:  76% (199/261)Resolving deltas:  77% (201/261)Resolving deltas:  78% (204/261)Resolving deltas:  79% (207/261)Resolving deltas:  80% (209/261)Resolving deltas:  81% (212/261)Resolving deltas:  82% (215/261)Resolving deltas:  83% (217/261)Resolving deltas:  84% (221/261)Resolving deltas:  85% (222/261)Resolving deltas:  86% (225/261)Resolving deltas:  87% (228/261)Resolving deltas:  88% (230/261)Resolving deltas:  89% (233/261)Resolving deltas:  90% (235/261)Resolving deltas:  91% (238/261)Resolving deltas:  92% (241/261)Resolving deltas:  93% (243/261)Resolving deltas:  94% (246/261)Resolving deltas:  95% (248/261)Resolving deltas:  96% (251/261)Resolving deltas:  97% (254/261)Resolving deltas:  98% (256/261)Resolving deltas:  99% (259/261)Resolving deltas: 100% (261/261)Resolving deltas: 100% (261/261), done.
+From https://github.com/paulboone/ticgit
+ * [new branch]      master     -> pb/master
+ * [new branch]      ticgit     -> pb/ticgit
+[?2004h]0;diptarshis@TIGER05093: ~[01;32mdiptarshis@TIGER05093[00m:[01;34m~[00m$ git status
+[?2004lOn branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31m.README.md.swp[m
+	[31m.bash_history[m
+	[31m.bash_logout[m
+	[31m.bashrc[m
+	[31m.cache/[m
+	[31m.gitconfig[m
+	[31m.lesshst[m
+	[31m.motd_shown[m
+	[31m.profile[m
+	[31m.ssh/[m
+	[31m.sudo_as_admin_successful[m
+	[31mAssignment1_2_git_dsaha.txt[m
+	[31mTAMLEP-Assignments/[m
+	[31mmyscript.log[m
+	[31mshell-lesson-data.zip[m
+	[31mshell-lesson-data.zip:Zone.Identifier[m
+	[31mshell-lesson-data/[m
+	[31msimplegit-progit/[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+[?2004h]0;diptarshis@TIGER05093: ~[01;32mdiptarshis@TIGER05093[00m:[01;34m~[00m$ git statusfetch pbremote -vadd pb https://github.com/paulboone/ticgit[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C-v[K[K[5Pcd ..git log --since=2.weekspretty=formatstat[Kp[K[Kcd ./simplegit-progit[14Pgit log[2Pcd ..git logls[Kcd ./simplegit-progitls[Kgit clone git@github.com:schacon/simplegit-progit.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[22Ppush -u origin main --force[K --forceclone git@github.com:schacon/simplegit-progit.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[22Ppush -u origin main --force[Kcommit -m "Updating the README file as part of the git exercise"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cdiff --cached[Kcommit -m "Updating the README file as part of the git exercise"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cpush -u origin main[K
+[?2004lBranch 'main' set up to track remote branch 'main' from 'origin'.
+Everything up-to-date
+[?2004h]0;diptarshis@TIGER05093: ~[01;32mdiptarshis@TIGER05093[00m:[01;34m~[00m$ git tag
+[?2004l[?1h=[K[?1l>[?2004h]0;diptarshis@TIGER05093: ~[01;32mdiptarshis@TIGER05093[00m:[01;34m~[00m$ [7mgit show v1.4[27mgit show v1.4
+[?2004lfatal: ambiguous argument 'v1.4': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+[?2004h]0;diptarshis@TIGER05093: ~[01;32mdiptarshis@TIGER05093[00m:[01;34m~[00m$ git show
+[?2004l[?1h=[33mcommit 4c8c95741c2796f65894cf2edd4158daae935b90[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m[m
+Author: diptarshis-tiger <diptarshi.saha@tigeranalytics.com>[m
+Date:   Sun Oct 6 21:15:19 2024 +0530[m
+[m
+    Updating the README file as part of the git exercise[m
+[m
+[1mdiff --git a/README.md b/README.md[m[m
+[1mindex fe3c39a..c782eb3 100644[m[m
+[1m--- a/README.md[m[m
+[1m+++ b/README.md[m[m
+[36m@@ -1 +1,2 @@[m[m
+ # TAMLEP-Assignments. This repository consists of all of the assigment deliverables for the TAMLEP Program[m[m
+[32m+[m[32m### All of the txt files refer to the shell recordings[m[m
+[K[?1l>[?2004h]0;diptarshis@TIGER05093: ~[01;32mdiptarshis@TIGER05093[00m:[01;34m~[00m$ [7mgit checkout[27mgit checkout
+[?2004lYour branch is up to date with 'origin/main'.
+[?2004h]0;diptarshis@TIGER05093: ~[01;32mdiptarshis@TIGER05093[00m:[01;34m~[00m$ git branch
+[?2004l[?1h=* [32mmain[m[m
+[K[?1l>[?2004h]0;diptarshis@TIGER05093: ~[01;32mdiptarshis@TIGER05093[00m:[01;34m~[00m$ exit
+[?2004lexit
+
+Script done on 2024-10-06 22:20:17+05:30 [COMMAND_EXIT_CODE="0"]
